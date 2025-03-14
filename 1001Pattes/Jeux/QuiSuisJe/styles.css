@@ -1,0 +1,176 @@
+
+.Header 
+{
+    background-image: url("https://www.ecranlarge.com/content/uploads/2021/04/1001-pattes-photo-1373468.jpg");
+    text-align: center;
+    padding: 20px 0;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: beige;
+    margin: 0;
+    padding: 0;
+}
+
+/* Titre */
+h1 {
+    padding: 20px;
+    color: black;
+}
+
+/* Barre de progression */
+.progress-bar {
+    width: 80%;
+    height: 20px;
+    background: #ddd;
+    border-radius: 10px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    width: 0;
+    background: #4caf50;
+    transition: width 0.5s ease;
+}
+
+/* Conteneur principal */
+.quiz-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/* Boutons des réponses */
+button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #f50057;
+}
+
+/* Résultat final */
+#result {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+}
+
+#restartButton {
+    margin-top: 20px;
+    background: #2196F3;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Image du personnage */
+#resultImage {
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    left: 50%;
+    right: 50%;
+margin-left: auto;
+margin-right: auto;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-logo h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer-links ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ff6347; /* Changement de couleur au survol */
+}
+
+/* Style des icônes sociales */
+.footer-social a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.footer-social a:hover {
+    color: #ff6347; /* Changement de couleur au survol */
+}
+
+/* Style du bas de footer */
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.footer-bottom p {
+    color: #aaa;
+}
+.CV{
+  text-align: center;
+}
+ .custom-footer {
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    padding: 40px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.espace
+{
+    margin-bottom: 400px;
+    margin-top: 400px;
+}
+.custom-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.custom-button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Toy Story</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="Header">
+    <h1>Qui Suis JE?</h1>
+    <a href="../../index.html" class="custom-button">page principale</a><br>
+    </div>
+    <h1>Quel personnage de Toy Story es-tu ?</h1>
+
+    <!-- Barre de progression -->
+    <div class="progress-bar">
+        <div class="progress"></div>
+    </div>
+
+    <!-- Conteneur du quiz -->
+    <div class="quiz-container">
+        <p id="question">Question ici...</p>
+        <div class="answers">
+            <button onclick="selectAnswer(0)"></button>
+            <button onclick="selectAnswer(1)"></button>
+            <button onclick="selectAnswer(2)"></button>
+            <button onclick="selectAnswer(3)"></button>
+        </div>
+    </div>
+
+    <!-- Section des résultats avec image -->
+    <p id="result"></p>
+    <img id="resultImage" src="#" style="display:none;" alt="Personnage">
+    <button id="restartButton" onclick="restartQuiz()" style="display:none;">Rejouer</button>
+
+    <!-- Effet sonore -->
+    <audio id="clickSound" src="click.mp3"></audio>
+    <audio id="winSound" src="win.mp3"></audio>
+    <div class ="espace"></div>
+    <footer class="custom-footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h2>Toy Story</h2>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="../../index.html">Accueil</a></li>
+                    <li><a href="../../sous_repertoire/index du site.html">À propos</a></li>
+                    <li><a href="../../sous_repertoire/informations.html">Services</a></li>
+                    <li><a href="../../sous_repertoire/Contact.html">Contact</a></li>
+                    <li><a href="../../sous_repertoire/PolitiqueDeConfidentialité.html">Politique de confidentialité</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.facebook.com">Facebook</a>
+                <a href="https://www.twitter.com">X</a>
+                <a href="https://www.instagram.com">Instagram</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 MonSite. Tous droits réservés.Chatain Erwan.</p>
+        </div>
+    </footer2>
+
+    <script src="script.js"></script>
+</body>
+</html>
